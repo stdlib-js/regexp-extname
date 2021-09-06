@@ -130,6 +130,24 @@ ext = reExtname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/extname-posix`][@stdlib/regexp/extname-posix]: return a regular expression to capture a POSIX filename extension.
+-   [`@stdlib/regexp/extname-windows`][@stdlib/regexp/extname-windows]: return a regular expression to capture a Windows filename extension.
+-   [`@stdlib/utils/extname`][@stdlib/utils/extname]: return a filename extension.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -191,9 +209,15 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
+<!-- <related-links> -->
+
 [@stdlib/regexp/extname-posix]: https://github.com/stdlib-js/regexp-extname-posix
 
 [@stdlib/regexp/extname-windows]: https://github.com/stdlib-js/regexp-extname-windows
+
+[@stdlib/utils/extname]: https://github.com/stdlib-js/utils-extname
+
+<!-- </related-links> -->
 
 </section>
 
