@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reExtname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@esm/index.mjs';
+import reExtname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@esm/index.mjs';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@v0.2.1-esm/index.mjs';
 ```
 
 #### reExtname( \[platform] )
@@ -125,7 +125,7 @@ var ext = reExtname.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <body>
 <script type="module">
 
-import reExtname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@esm/index.mjs';
+import reExtname from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-extname@v0.2.1-esm/index.mjs';
 var RE_EXTNAME = reExtname();
 var ext;
 
